@@ -1,0 +1,127 @@
+.tweetSection {
+  width: 45%;
+  padding: 10px 0;
+  margin: 0 20px;
+  border: 1px solid #80808073;
+}
+
+/* tweet header */
+
+.tweetSection__home {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #80808073;
+  padding: 0 20px 10px 20px;
+}
+.tweetSection__home > h2 {
+  font-size: 20px;
+}
+.tweetSection__home > svg {
+  color: #1da1f2;
+}
+
+/* tweet form */
+
+.tweetSection > form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 10px 20px;
+  border-bottom: 10px solid #8080802c;
+}
+.tweetSection__input {
+  display: flex;
+  background-color: black;
+  padding: 20px 20px 20px 0;
+}
+.tweetSection__input > input {
+  margin-left: 20px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  caret-color: white;
+  border: none;
+  outline: none;
+}
+
+/* tweet form subtext */
+
+.tweetSection__subtext {
+  color: #1da1f2;
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 60px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.tweetSection__subtext > svg {
+  margin-right: 8px;
+}
+
+.tweetSection__submitRow {
+  display: flex;
+  border-top: 1px solid #80808073;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.tweetSection__formIcons {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  color: #1da1f2;
+}
+.tweetSection__button {
+  color: white !important;
+  background: #1da1f2 !important;
+  border-radius: 50px !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  width: 80px !important;
+  margin: 20px 0 0 auto !important;
+  text-transform: inherit !important;
+}
+
+/* tweet display */
+
+.tweetSection__tweetDisplay {
+  display: flex;
+  padding: 10px 20px 0 20px;
+}
+
+/* .tweet {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid white;
+} */
+.tweet__avatar {
+  padding: 20px;
+}
+.tweet__footer {
+  color: #ffffff54;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.tweet__badge {
+  margin: 0 10px 0 3px;
+  font-size: 14px !important;
+  align-self: center;
+}
+.tweet__headerHandleName {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+.tweet__headerText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.tweet__headerDescription {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.tweet__body {
+  flex: 1;
+  padding: 10px;
+}
